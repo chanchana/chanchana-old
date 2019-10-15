@@ -1,77 +1,61 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        chanchana
-      </h1>
-      <h2 class="subtitle">
-        chanchana webpage
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <div class="flex h-screen text-center">
+    <div class="m-auto">
+      <p class="text-white text-3xl sm:text-6xl font-black">Chanchana Wicha</p>
+      <button class="bg-transparent hover:bg-gray-500 text-gray-300 font-semibold hover:text-white py-2 px-4 border border-gray-200 hover:border-transparent rounded">
+        Under Construction
+      </button>
     </div>
   </div>
+  <!-- <div class="container w-screen h-screen">
+    <div class="flex justify-center bg-grey-lighter">
+      <div class="text-center">
+        <p class="text-white text-2xl sm:text-6xl font-black">Chanchana Wicha</p>
+      </div>
+      <div class="text-grey-darker text-center bg-grey-light px-4 py-2 m-2">2</div>
+      <div class="text-grey-darker text-center bg-grey-light px-4 py-2 m-2">3</div>
+    </div>
+  </div> -->
+  <!-- <div class="static">
+        <div class="flex bg-gray-200">
+          <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">1</div>
+          <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">2</div>
+          <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">3</div>
+        </div>
+        <div class="flex">
+          <div class="flex-4">
+            <p class="m-6 text-white text-5xl xl:text-6xl font-black">
+              <br>Chanchana Wicha<br>
+            </p>
+          </div>
+          <div class="flex-10"></div>
+        </div>
+        <div class="relative">
+          <img src="~/assets/chanchana/profile_pic.png">
+        </div>
+  </div>-->
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
-
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 </style>

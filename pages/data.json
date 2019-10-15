@@ -1,0 +1,88 @@
+{
+    "date": "13/09/2019",
+    "rooms": [
+        {
+            "id": "R01",
+            "name": "S1",
+            "booking": [
+                {
+                    "id": "B00001",
+                    "start": "13/09/2019 09:00",
+                    "end": "13/09/2019 11:00",
+                    "members": [
+                        {
+                            "id": "1234567899",
+                            "name": "Chanchana Wicha"
+                        },
+                        {
+                            "id": "1234567898",
+                            "name": "Blabla Blah"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "R02",
+            "name": "S2",
+            "booking": [
+                {
+                    "id": "B00004",
+                    "start": "13/09/2019 13:00",
+                    "end": "13/09/2019 16:00",
+                    "members": [
+                        {
+                            "id": "65432109876",
+                            "name": "Konteemai Rakdee"
+                        },
+                        {
+                            "id": "65432109879",
+                            "name": "Konteedeur Keurkonteemaitumshure"
+                        }
+                    ] 
+                }
+            ]
+        },
+        {
+            "id": "R10",
+            "name": "M1",
+            "booking": []
+        },
+        {
+            "id": "R20",
+            "name": "L1",
+            "booking": [
+                {
+                    "id": "B00003",
+                    "start": "13/09/2019 10:00",
+                    "end": "13/09/2019 12:00",
+                    "members": [
+                        {
+                            "id": "24432421",
+                            "name": "Tim Cook"
+                        }
+                    ] 
+                },
+                {
+                    "id": "B00002",
+                    "start": "13/09/2019 13:00",
+                    "end": "13/09/2019 17:00",
+                    "members": [
+                        {
+                            "id": "123235433",
+                            "name": "Kraisak Kon"
+                        },
+                        {
+                            "id": "25345343",
+                            "name": "Noo Rat"
+                        },
+                        {
+                            "id": "34556453",
+                            "name": "NimonLong Batdewnee"
+                        }
+                    ] 
+                }
+            ]
+        }
+    ]
+}
